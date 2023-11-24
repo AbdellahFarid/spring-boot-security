@@ -1,0 +1,17 @@
+jwt:
+  secret: 35fa1b6dd1517bf27ed2760d4fe418eb666fac5a1cc2708e53187c22c6eb7f06
+  expiration: 3600000
+
+spring:
+  application:
+    name: authentication-service
+  datasource:
+    url: jdbc:h2:mem:users-db
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+server:
+  port: 5555
+
