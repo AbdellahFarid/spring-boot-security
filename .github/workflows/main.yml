@@ -25,6 +25,6 @@ jobs:
         run: mvn -B test --file authentication-service/pom.xml
 
       - name: Build the Spring App
-        run:
+        run: |
           mvn clean
           mvn -B package --file authentication-service/pom.xml
