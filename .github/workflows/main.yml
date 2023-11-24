@@ -22,7 +22,7 @@ jobs:
         run: ls -R
         
       - name: Unit Tests
-        run: mvn -B test --file pom.xml
+        run: mvn -B test --file authentication-service/pom.xml
 
       - name: Build the Spring App
         run:
