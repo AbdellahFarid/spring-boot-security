@@ -28,4 +28,4 @@ jobs:
         run: |
           cd authentication-service
           mvn clean
-          mvn -B package --file authentication-service/pom.xml
+          mvn -B package --file pom.xml
